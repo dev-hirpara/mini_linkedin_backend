@@ -22,8 +22,8 @@ const limiter = rateLimit({
   max: 100 // limit each IP to 100 requests per windowMs
 });
 const allowedOrigins = [
-  "https://your-frontend.netlify.app", 
-  "http://localhost:5173",         
+  "https://linkify-hub.netlify.app", // ✅ your frontend hosted on Netlify
+  "http://localhost:5173",           // ✅ for local development
 ];
 
 // Middleware
